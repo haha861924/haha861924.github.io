@@ -6,7 +6,7 @@
   <link href="https://haha861924.github.io/atom.xml" rel="self"/>
   
   <link href="https://haha861924.github.io/"/>
-  <updated>2022-03-29T18:16:29.089Z</updated>
+  <updated>2022-05-13T06:57:22.717Z</updated>
   <id>https://haha861924.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在 windows 如何新增 ssh key?</title>
+    <link href="https://haha861924.github.io/2022/05/13/%E5%A6%82%E4%BD%95%E6%96%B0%E5%A2%9E-ssh-key/"/>
+    <id>https://haha861924.github.io/2022/05/13/%E5%A6%82%E4%BD%95%E6%96%B0%E5%A2%9E-ssh-key/</id>
+    <published>2022-05-13T06:39:16.000Z</published>
+    <updated>2022-05-13T06:57:22.717Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在 git bash 裡面，打上以下指令，即可產生 ssh key</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t ed25519 -C &quot;username@gmail.com&quot;</span><br></pre></td></tr></table></figure><p> 輸入儲存的位置，或是可以直接按下 Enter 跳過<br> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"> Generating public/private rsa key pair.</span><br><span class="line">Enter file in which to save the key (C:\Users\user/.ssh/id_rsa):</span><br></pre></td></tr></table></figure></p><p> 輸入密碼 (這裡也是可以直接按下 enter 跳過的哦)</p> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Enter passphrase (empty for no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br></pre></td></tr></table></figure><p>接下來會看到完成的訊息</p><p><a href="https://i.imgur.com/iRfQk5p.png">Imgur</a></p><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title></title>
